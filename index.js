@@ -11,3 +11,10 @@ bot.setWebHook(`${url}/bot${TOKEN}`);
 bot.on('message', function onMessage(msg) {
   bot.sendMessage(msg.chat.id, 'I am alive on Heroku!');
 });
+bot.on('message', function(msg){
+    var Hola = "hola bot";
+    var firstnameuser = msg.from.first_name;
+    if(msg.text.toString().toLowerCase().includes(Hola)){
+      bot.sendMessage(msg.chat.id, "Hola pokemaniaco " + firstnameuser )
+    }
+  });
