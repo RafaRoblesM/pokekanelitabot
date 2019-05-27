@@ -27,6 +27,7 @@ bot.on('message', function(msg){
     }
   });
   const url = process.env.APP_URL || 'https://pokekanelitabot.herokuapp.com';
+  const bot = new TelegramBot(TOKEN, options);
     bot.setWebHook(`${url}/bot${TOKEN}`);
     bot.on('message', function onMessage(msg) {
   bot.sendMessage(msg.chat.id, 'I am alive on Heroku!');
