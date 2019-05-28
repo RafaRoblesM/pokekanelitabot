@@ -57,3 +57,6 @@ bot.onText(/^\/clima (.+)/, function(msg, match){
         }
     })
 });
+
+
+// AIzaSyA38NOyG7wAifJwjEoyJ47XHI7zYNgD91c
