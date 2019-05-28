@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/RafaRoblesM/pokekanelitabot#readme",
   "dependencies": {
-    "nodemon": "^1.19.1"
+    "nodemon": "^1.19.1",
+    "weather-js": "^2.0.0"
   }
 }
